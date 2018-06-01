@@ -1,0 +1,39 @@
+\documentclass[twoside,openright,titlepage,numbers=noenddot,headinclude,
+               footinclude=true,cleardoublepage=empty,abstractoff,
+               BCOR=5mm,paper=a4,fontsize=11pt,ngerman,american
+              ]{scrreprt}
+\pagenumbering{gobble}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\begin{document}
+\begin{algorithm}
+\caption[Metropolis-Hastings Algorithm]{Metropolis-Hastings Algorithm \\ Generate samples from $p(x) \propto p^*(x)$ given proposal density $q (x^*\,|\,x)$ in $I$ iterations}
+\begin{algorithmic}
+  \footnotesize{\REQUIRE $I > 0$, $p^*(x)$, and $q(x^*\,|\,x^{(i-1)})$}
+  \STATE {$x^{(0)} \leftarrow x_0 \, ; \, \forall x_0 \in \mathbf{X}$}
+  \FOR{$i = 1$ to $I$}
+    \STATE {sample $x^*$ from $q(x\,|\,x^{(i-1)})$}
+    \STATE {$\alpha \leftarrow$ min$\left(\frac{p^*(x^*)}{p^*(x^{(i-1)})} \times \frac{q(x^{(i-1)}\,|\,x^*)}{q(x^*\,|\,x^{(i-1)})}, 1.0\right)$}
+    \STATE {sample $u$ from $\mathcal{U}[0,1]$}
+    \IF{$u < \alpha$}
+      \STATE {$x^{(i)} \leftarrow x^*$}
+    \ELSE
+      \STATE {$x^{(i)} \leftarrow x^{(i-1)}$}
+    \ENDIF
+  \ENDFOR
+\end{algorithmic}
+\end{algorithm}
+\begin{algorithm}
+\caption[Gelman-Rubin Diagnostic]{Gelman-Rubin Diagnostic \\ TODO}
+\begin{algorithmic}
+  \footnotesize{\REQUIRE $M \geq 2$}
+  \FOR {chain $= 1$ to $M$}
+    \STATE {run MCMC algorithm for chain, for length $2n$ with different initial values}
+    \STATE {discard the first $n$ draws in chain}
+    \STATE {$B \leftarrow \frac{n}{M - 1}\sum_{i = 1}^{M} \left(\overline{\theta_i} - \sum_{i = 1}^{M} \overline{\theta_i}\right)$ // between-chain variance}
+    \STATE {$W \leftarrow \frac{1}{M}\sum_{i = 1}^{M} s_i^2$ // within-chain variance}
+    \STATE {calculate potential scale reduction factor}
+  \ENDFOR
+\end{algorithmic}
+\end{algorithm}
+\end{document}

@@ -1,6 +1,8 @@
+****
 Team
-====
+****
 
+==========
 John Letey
 ==========
 
@@ -10,6 +12,7 @@ John Letey
 
 TODO: Add description of what John did on the project
 
+==============
 Mingxuan Zhang
 ==============
 
@@ -19,6 +22,7 @@ Mingxuan Zhang
 
 TODO: Add description of what Mingxuan did on the project
 
+============
 Nihar Nandan
 ============
 
@@ -28,6 +32,7 @@ Nihar Nandan
 
 TODO: Add description of what Nihar did on the project
 
+=========
 Tony Wong
 =========
 

@@ -17,6 +17,10 @@ generate_synthetic_data
 Explanation
 ===========
 
+.. todo::
+
+    Fix explanation of what function does, below is just a copy from tutorial, which is not what we need for this section
+
 Let's say we have a linear model that models the amount of ice cream you will consume (where :math:`y` has units of pints) after going on a bike ride of length :math:`x` (where :math:`x` has units of miles). So the true process model, based on the unknown true values of the slope and intercept parameters, which we can call :math:`\alpha^*` and :math:`\beta^*`, is:
 
 .. math::

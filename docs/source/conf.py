@@ -35,7 +35,7 @@ extensions = [
     'sphinx.ext.doctest',
     'sphinx.ext.todo',
     'sphinx.ext.coverage',
-    'sphinx.ext.mathjax',
+    'sphinx.ext.mathbase'
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode'
 ]
@@ -82,9 +82,6 @@ pygments_style = 'sphinx'
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
-
-# MathJax
-mathjax_path = "_static/MathJax/MathJax.js"
 
 # -- Options for HTML output ---------------------------------------------------
 

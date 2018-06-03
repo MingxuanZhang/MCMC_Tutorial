@@ -9,3 +9,7 @@ Before you play around with our tutorial, first install Jupyter Notebook:
     pip install jupyter
 
 or use ``pip3`` if needed.
+
+Note
+
+You can also install `Anaconda Python 3.6 <https://www.anaconda.com/download>`__, which downloads both Python 3.6 and Jupyter.

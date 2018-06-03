@@ -22,6 +22,14 @@ or
 pip install -r requirements.txt
 ```
 
+## Documentation
+
+The documentation is currrently under development, however, you can build them locally by going to the [`docs`](https://github.com/MingxuanZhang/MCMC_Tutorial/tree/master/docs) folder and run the command:
+
+```sh
+make html
+```
+
 ## Team
 [![John Letey](https://github.com/johnletey.png)](https://github.com/johnletey) | [![Mingxuan Zhang](https://github.com/MingxuanZhang.png)](https://github.com/MingxuanZhang) | [![Nihar Nandan](https://github.com/NiharNandan.png)](https://github.com/NiharNandan) | [![Tony Wong](https://github.com/tonyewong.png)](https://github.com/tonyewong)
 ---|---|---|---

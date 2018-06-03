@@ -8,8 +8,14 @@ Home
 ****
 
 .. toctree::
-   :caption: Tutorial Documentation
+   :caption: General
    :maxdepth: 2
 
    getting-started
+   about
+   team
+
+.. toctree::
+   :caption: Function Documentation
+
    functions/generate_synthetic_data

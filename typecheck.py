@@ -1,17 +1,6 @@
 """
 Add mypy type-checking cell magic to jupyter/ipython.
 
-Save this script to your ipython profile's startup directory.
-
-IPython's directories can be found via `ipython locate [profile]` to find the current ipython directory and ipython profile directory, respectively.
-
-For example, this file could exist on a path like this on mac:
-
-/Users/yourusername/.ipython/profile_default/startup/typecheck.py
-
-where /Users/yourusername/.ipython/profile_default/ is the ipython directory for
-the default profile.
-
 The line magic is called "typecheck" to avoid namespace conflict with the mypy
 package.
 """

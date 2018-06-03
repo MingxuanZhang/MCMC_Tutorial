@@ -12,3 +12,4 @@ Home
    :maxdepth: 2
 
    getting-started
+   functions/generate_synthetic_data

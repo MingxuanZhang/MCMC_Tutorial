@@ -10,7 +10,9 @@ John Letey
    :alt: John Letey Profile Picture
    :target: https://github.com/johnletey
 
-TODO: Add description of what John did on the project
+.. todo::
+
+    Add description of what John did on the project
 
 ==============
 Mingxuan Zhang
@@ -20,7 +22,9 @@ Mingxuan Zhang
    :alt: Mingxuan Zhang Profile Picture
    :target: https://github.com/MingxuanZhang
 
-TODO: Add description of what Mingxuan did on the project
+.. todo::
+
+    Add description of what Mingxuan did on the project
 
 ============
 Nihar Nandan
@@ -30,7 +34,9 @@ Nihar Nandan
    :alt: Nihar Nandan Profile Picture
    :target: https://github.com/NiharNandan
 
-TODO: Add description of what Nihar did on the project
+.. todo::
+
+    Add description of what Nihar did on the project
 
 =========
 Tony Wong

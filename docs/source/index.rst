@@ -11,11 +11,11 @@ Home
    :caption: General
 
    ../../mcmc_tutorial.ipynb
-   getting-started
-   about
-   team
+   getting-started.rst
+   about.rst
+   team.rst
 
 .. toctree::
    :caption: Function Documentation
 
-   functions/generate_synthetic_data
+   functions/generate_synthetic_data.rst

@@ -9,8 +9,8 @@ Home
 
 .. toctree::
    :caption: General
-   :maxdepth: 2
 
+   ../../mcmc_tutorial.ipynb
    getting-started
    about
    team

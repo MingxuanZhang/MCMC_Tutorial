@@ -19,7 +19,7 @@
 #
 # import os
 # import sys
-# sys.path.insert(0, os.path.abspath('.'))
+# sys.path.insert(0, os.path.abspath("."))
 import sphinx_rtd_theme
 # from jupyter_sphinx_theme import *
 # init_theme()
@@ -28,102 +28,107 @@ import sphinx_rtd_theme
 
 # Extensions
 extensions = [
-    'nbsphinx',
-    'sphinx.ext.mathjax',
-    'sphinx.ext.todo',
-    'sphinx.ext.viewcode'
+    "nbsphinx",
+    "nbsphinx_link",
+    "sphinx.ext.mathjax",
+    "sphinx.ext.todo",
+    "sphinx.ext.viewcode"
 ]
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+templates_path = ["_templates"]
 
-# We're only going to be using rst files for our docs
-source_suffix = '.rst'
+# We"re only going to be using rst files for our docs
+source_suffix = ".rst"
 
 # The master toctree document.
-master_doc = 'index'
+master_doc = "index"
 
 # General information about the project.
-project = 'MCMC Tutorial'
-copyright = '2018 - John Letey, Mingxuan Zhang, Nihar Nandan, Tony Wong'
-author = 'John Letey, Mingxuan Zhang, Nihar Nandan, Tony Wong'
+project = "MCMC Tutorial"
+copyright = "2018 - John Letey, Mingxuan Zhang, Nihar Nandan, Tony Wong"
+author = "John Letey, Mingxuan Zhang, Nihar Nandan, Tony Wong"
 
-# Don't really need any of these, so set to nothing
-version = ''
-release = ''
+# Don"t really need any of these, so set to nothing
+version = ""
+release = ""
 
 # Our docs are all in English
 language = "en"
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'monokai'
+pygments_style = "sphinx"
 
 # Show all of our todos on the website! We find them very useful to the viewer + us!
 todo_include_todos = True
 
 # -- Options for HTML output ---------------------------------------------------
 
-html_theme = 'sphinx_rtd_theme'
+# Use the Sphinx ReadTheDocs theme!
+html_theme = "sphinx_rtd_theme"
 
+# Of course... set the theme options
 html_theme_options = {
     # Base options
-    'canonical_url': '',
-    'analytics_id': '',
-    'logo_only': False,
-    'display_version': False,
-    'prev_next_buttons_location': 'bottom',
-    'style_external_links': True,
+    "canonical_url": "",
+    "analytics_id": "",
+    "logo_only": False,
+    "display_version": False,
+    "prev_next_buttons_location": "bottom",
+    "style_external_links": True,
     # Toc options
-    'collapse_navigation': False,
-    'sticky_navigation': True,
-    'navigation_depth': 4,
-    'includehidden': True,
-    'titles_only': False
+    "collapse_navigation": False,
+    "sticky_navigation": True,
+    "navigation_depth": 4,
+    "includehidden": True,
+    "titles_only": False
 }
 
+# WHy not... it's required!
 html_static_path = ["_static"]
 
+# Don't forget about the special settings that we've defined!
 def setup(app):
-    app.add_stylesheet('_static/custom.css')
+    app.add_stylesheet("_static/custom.css")
 
 # The title of the website
 html_title = "MCMC Tutorial Documentation"
 
-# 'Last updated on: Month Day, Year' time stamp is inserted at every page bottom
-html_last_updated_fmt = '%b %d, %Y'
+# "Last updated on: Month Day, Year" time stamp is inserted at every page bottom
+html_last_updated_fmt = "%b %d, %Y"
 
 # Show links of sources of the docs pages
 html_show_sourcelink = True
 
-# Don't show the annoying "Created using Sphinx" at the bottom of every page!
+# Don"t show the annoying "Created using Sphinx" at the bottom of every page!
 html_show_sphinx = False
 
 # -- Options for LaTeX output ---------------------------------------------
 
 latex_elements = {
-    # The paper size ('letterpaper' or 'a4paper').
+    # The paper size ("letterpaper" or "a4paper").
     #
-    # 'papersize': 'letterpaper',
+    # "papersize": "letterpaper",
 
-    # The font size ('10pt', '11pt' or '12pt').
+    # The font size ("10pt", "11pt" or "12pt").
     #
-    # 'pointsize': '10pt',
+    # "pointsize": "10pt",
 
     # Additional stuff for the LaTeX preamble.
     #
-    # 'preamble': '',
+    # "preamble": "",
 
     # Latex figure (float) alignment
     #
-    # 'figure_align': 'htbp',
+    # "figure_align": "htbp",
 }
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'MCMCTutorial.tex', 'MCMC Tutorial Documentation',
-     'John Letey, Mingxuan Zhang, Nihar Nandan, Tony Wong', 'manual'),
+    (master_doc, "MCMCTutorial.tex", "MCMC Tutorial Documentation",
+     "John Letey, Mingxuan Zhang, Nihar Nandan, Tony Wong", "manual"),
 ]
 
 
@@ -132,7 +137,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'mcmctutorial', 'MCMC Tutorial Documentation',
+    (master_doc, "mcmctutorial", "MCMC Tutorial Documentation",
      [author], 1)
 ]
 
@@ -142,7 +147,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'MCMCTutorial', 'MCMC Tutorial Documentation',
-     author, 'MCMCTutorial', 'One line description of project.',
-     'Miscellaneous'),
+    (master_doc, "MCMCTutorial", "MCMC Tutorial Documentation",
+     author, "MCMCTutorial", "One line description of project.",
+     "Miscellaneous"),
 ]

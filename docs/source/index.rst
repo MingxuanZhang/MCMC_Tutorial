@@ -10,12 +10,12 @@ Home
 .. toctree::
    :caption: General
 
-   tutorial
-   getting-started
-   about
-   team
+   tutorial.nblink
+   getting-started.rst
+   about.rst
+   team.rst
 
 .. toctree::
    :caption: Function Documentation
 
-   functions/generate_synthetic_data
+   functions/generate_synthetic_data.rst

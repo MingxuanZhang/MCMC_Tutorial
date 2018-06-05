@@ -2,12 +2,6 @@
 Getting Started
 ***************
 
-.. toctree::
-   :maxdepth: 2
-
-   Installing Jupyter
-   Cloning Repo + Starting Jupyter Server
-
 ==================
 Installing Jupyter
 ==================

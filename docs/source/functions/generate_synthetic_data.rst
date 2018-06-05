@@ -2,12 +2,6 @@
 generate_synthetic_data
 ***********************
 
-.. toctree::
-   :maxdepth: 2
-
-   Explanation
-   Example Usage
-
 .. code:: python
 
     # Function to generate synthetic data (and plot it)

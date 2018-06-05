@@ -20,9 +20,9 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-# import sphinx_rtd_theme
-from jupyter_sphinx_theme import *
-init_theme()
+import sphinx_rtd_theme
+# from jupyter_sphinx_theme import *
+# init_theme()
 
 # -- General configuration ------------------------------------------------
 
@@ -55,16 +55,36 @@ release = ''
 # Our docs are all in English
 language = "en"
 
-# Exclude build directory
-exclude_patterns = ['build']
-
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = 'sphinx'
+pygments_style = 'monokai'
 
 # Show all of our todos on the website! We find them very useful to the viewer + us!
 todo_include_todos = True
 
 # -- Options for HTML output ---------------------------------------------------
+
+html_theme = 'sphinx_rtd_theme'
+
+html_theme_options = {
+    # Base options
+    'canonical_url': '',
+    'analytics_id': '',
+    'logo_only': False,
+    'display_version': False,
+    'prev_next_buttons_location': 'bottom',
+    'style_external_links': True,
+    # Toc options
+    'collapse_navigation': False,
+    'sticky_navigation': True,
+    'navigation_depth': 4,
+    'includehidden': True,
+    'titles_only': False
+}
+
+html_static_path = ["_static"]
+
+def setup(app):
+    app.add_stylesheet('_static/custom.css')
 
 # The title of the website
 html_title = "MCMC Tutorial Documentation"

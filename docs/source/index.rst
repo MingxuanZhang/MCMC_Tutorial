@@ -10,12 +10,12 @@ Home
 .. toctree::
    :caption: General
 
-   ../../mcmc_tutorial.ipynb
-   getting-started.rst
-   about.rst
-   team.rst
+   tutorial
+   getting-started
+   about
+   team
 
 .. toctree::
    :caption: Function Documentation
 
-   functions/generate_synthetic_data.rst
+   functions/generate_synthetic_data

@@ -27,13 +27,7 @@ pip install -r requirements.txt
 To see the current documentation, go [here](http://mcmc-tutorial.readthedocs.io/en/latest/index.html). If you want to develop locally, first make sure you have all of the requirements installed, and then run (from the repos home directory) the following command:
 
 ```sh
-sphinx-autobuild docs docs/build/html
-```
-
-You can also go to the [`docs`](https://github.com/MingxuanZhang/MCMC_Tutorial/tree/master/docs) folder and run the command:
-
-```sh
-make html
+bash build.sh
 ```
 
 ## Team

@@ -1,8 +1,0 @@
-requirements_file: requirements.txt
-
-python:
-  version: 3.6
-  pip_install: true
-  
-script:
-  bash scripts/build.sh

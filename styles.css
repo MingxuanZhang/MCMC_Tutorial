@@ -182,6 +182,20 @@ _:-ms-input-placeholder, :root .demo-graph {
   background-position: 90% 100%;
   background-repeat: no-repeat;
 }
+/* Begin - Added by MCMC Team */
+.johnfavicon .mdl-card__title {
+  min-height: 200px;
+  background-image: url('https://github.com/johnletey.png');
+  background-position: 90% 100%;
+  background-repeat: no-repeat;
+}
+.tonyfavicon .mdl-card__title {
+  min-height: 210px;
+  background-image: url('https://github.com/tonyewong.png');
+  background-position: 90% 100%;
+  background-repeat: no-repeat;
+}
+/* End */
 .demo-cards .mdl-card__actions a {
   color: #00BCD4;
   text-decoration: none;

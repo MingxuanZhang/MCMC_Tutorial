@@ -6,7 +6,6 @@ To view the tutorial somewhere else other than GitHub, go [here](https://nbviewe
 
 - [seaborn](https://github.com/mwaskom/seaborn) - Statistical data visualization using matplotlib.
 - [pyprind](https://github.com/rasbt/pyprind) - Python Progress Indicator Utility.
-- *TODO:* [mypy](https://github.com/python/mypy) - Static typing for Python 2 and 3.
 
 ## Requirements
 
@@ -20,14 +19,6 @@ or
 
 ```sh
 pip install -r requirements.txt
-```
-
-## Documentation
-
-To see the current documentation, go [here](http://mcmc-tutorial.readthedocs.io/en/latest/index.html). If you want to develop locally, first make sure you have all of the requirements installed, and then run (from the repos home directory) the following command:
-
-```sh
-bash build.sh
 ```
 
 ## Team

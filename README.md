@@ -1,8 +1,8 @@
 # MCMC Tutorial
 
-| Tutorial 1 | Tutorial 2 | Tutorial 3 |
-|:----------:|:----------:|:----------:|
-| [GitHub](https://github.com/MingxuanZhang/MCMC_Tutorial/blob/master/tutorial/part1/mcmc_tutorial_part1_new_version.ipynb) / [NBVeiwer](https://nbviewer.jupyter.org/github/MingxuanZhang/MCMC_Tutorial/blob/master/tutorial/part1/mcmc_tutorial_part1_new_version.ipynb) | [GitHub](https://github.com/MingxuanZhang/MCMC_Tutorial/blob/master/tutorial/part2/mcmc_tutorial_part2.ipynb) / [NBVeiwer](https://nbviewer.jupyter.org/github/MingxuanZhang/MCMC_Tutorial/blob/master/tutorial/part2/mcmc_tutorial_part2.ipynb) | [GitHub](https://github.com/MingxuanZhang/MCMC_Tutorial/blob/master/tutorial/part3/mcmc_tutorial_part3.ipynb) / [NBVeiwer](https://nbviewer.jupyter.org/github/MingxuanZhang/MCMC_Tutorial/blob/master/tutorial/part3/mcmc_tutorial_part3.ipynb) |
+| Tutorial 1 | Tutorial 2 |
+|:----------:|:----------:|
+| [GitHub](https://github.com/MingxuanZhang/MCMC_Tutorial/blob/master/tutorial/part1/mcmc_tutorial_part1_new_version.ipynb) / [NBVeiwer](https://nbviewer.jupyter.org/github/MingxuanZhang/MCMC_Tutorial/blob/master/tutorial/part1/mcmc_tutorial_part1_new_version.ipynb) | [GitHub](https://github.com/MingxuanZhang/MCMC_Tutorial/blob/master/tutorial/part2/mcmc_tutorial_part2.ipynb) / [NBVeiwer](https://nbviewer.jupyter.org/github/MingxuanZhang/MCMC_Tutorial/blob/master/tutorial/part2/mcmc_tutorial_part2.ipynb) |
 
 ## Tech Stack
 

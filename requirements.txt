@@ -1,5 +1,0 @@
-# Graphing packages
-seaborn==0.7.1
-matplotlib==2.1.2
-# Status bar package
-pyprind==2.11.2

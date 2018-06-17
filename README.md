@@ -1,29 +1,22 @@
-# MCMC Tutorial
+# pymcmc
+> MCMC (Markov Chain Monte Carlo) Python implementation
 
-| Tutorial 1 | Tutorial 2 |
-|:----------:|:----------:|
-| [GitHub](https://github.com/MingxuanZhang/MCMC_Tutorial/blob/master/tutorial/part1/mcmc_tutorial_part1_new_version.ipynb) / [NBVeiwer](https://nbviewer.jupyter.org/github/MingxuanZhang/MCMC_Tutorial/blob/master/tutorial/part1/mcmc_tutorial_part1_new_version.ipynb) | [GitHub](https://github.com/MingxuanZhang/MCMC_Tutorial/blob/master/tutorial/part2/mcmc_tutorial_part2.ipynb) / [NBVeiwer](https://nbviewer.jupyter.org/github/MingxuanZhang/MCMC_Tutorial/blob/master/tutorial/part2/mcmc_tutorial_part2.ipynb) |
+To view the `Basic MCMC Implementation` notebook somewhere else other than GitHub, go [here](https://nbviewer.jupyter.org/github/johnletey/pymcmc/blob/master/Basic%20MCMC%20Implementation.ipynb). To view my version of the tutorial somewhere else other than GitHub, go [here](https://nbviewer.jupyter.org/github/johnletey/pymcmc/blob/master/tutorial/mcmc_tutorial_John.ipynb).
 
 ## Tech Stack
 
 - [seaborn](https://github.com/mwaskom/seaborn) - Statistical data visualization using matplotlib.
-- [pyprind](https://github.com/rasbt/pyprind) - Python Progress Indicator Utility.
+- [tqdm](https://github.com/tqdm/tqdm) - A fast, extensible progress bar for Python and CLI.
+- *TODO:* [mypy](https://github.com/python/mypy) - Static typing for Python 2 and 3.
 
-## Requirements
+<!-- Here's some interesting repos exploring MCMCs:
 
-To install the requirements, either run
+- [AustinRochford / webmc3](https://github.com/AustinRochford/webmc3)
+- [Chi-Feng / MCMC-Demo](https://github.com/chi-feng/mcmc-demo)
 
-```sh
-conda install --file requirements.txt
-```
+And for fun, I just found [livepython](https://github.com/agermanidis/livepython), which lets you visualize your code run! Here's how to set it up:
 
-or
-
-```sh
-pip install -r requirements.txt
-```
-
-## Team
-[![John Letey](https://github.com/johnletey.png)](https://github.com/johnletey) | [![Mingxuan Zhang](https://github.com/MingxuanZhang.png)](https://github.com/MingxuanZhang) | [![Nihar Nandan](https://github.com/NiharNandan.png)](https://github.com/NiharNandan) | [![Tony Wong](https://github.com/tonyewong.png)](https://github.com/tonyewong)
----|---|---|---
-[John Letey](https://github.com/johnletey) | [Mingxuan Zhang](https://github.com/MingxuanZhang) | [Nihar Nandan](https://github.com/NiharNandan) | [Tony Wong](https://github.com/tonyewong)
+1. Run `npm install livepython -g`
+2. Run `livepython [name of python file]`
+3. Press `V` in the window that just opened
+4. Sit back and enjoy! :smile: -->

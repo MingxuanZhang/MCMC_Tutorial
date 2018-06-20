@@ -17,7 +17,7 @@ At the top of the file there should be a short introduction and/ or overview tha
  |   |   ├── gev_distribution_fitting.ipynb    # Part2A of tutorial
  |   |   └── normal_distribution_fitting.ipynb # Part2B of tutorial
  |   └── part3/
- |   |   └── Currently doesn't exist... waiting of Nihar
+ |   |   └── Currently doesn't exist... waiting on Nihar
  ├── .gitignore
  ├── README.md
  └── tony_scratch.ipynb                        # Tony's scratch work from our meetings

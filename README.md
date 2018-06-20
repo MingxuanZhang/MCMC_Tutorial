@@ -1,7 +1,7 @@
 # MCMC Tutorial v0.1Beta
 
 ## Synopsis
-  
+
 At the top of the file there should be a short introduction and/ or overview that explains **what** the project is.
 
 ## Directory Structure
@@ -10,15 +10,17 @@ At the top of the file there should be a short introduction and/ or overview tha
  master/
  ├── tutorial/
  |   ├── part1/
- |   |   └── Currently doesn't exist... need to transfer some files
+ |   |   ├── figs/                             # Figures folder
+ |   |   └── introduction.ipynb                # Part1 of tutorial
  |   ├── part2/
- |   |   ├── Galveston.csv                    # Some data
- |   |   └── mcmc_tutorial_dist_fitting.ipynb # GEV distribution fitting tutorial
+ |   |   ├── Galveston.csv                     # A dataset used in Part2B
+ |   |   ├── gev_distribution_fitting.ipynb    # Part2A of tutorial
+ |   |   └── normal_distribution_fitting.ipynb # Part2B of tutorial
  |   └── part3/
- |   |   └── Currently doesn't exist... need to transfer some files
+ |   |   └── Currently doesn't exist... waiting of Nihar
  ├── .gitignore
  ├── README.md
- └── tony_sratch.ipynb                        # Tony's sratch work from our meetings
+ └── tony_scratch.ipynb                        # Tony's scratch work from our meetings
  ```
 
 ## Motivation

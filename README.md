@@ -1,4 +1,4 @@
-# MCMC Tutorial v0.1Beta
+# MCMC Tutorial v0.1.0Beta
 
 ## Synopsis
 

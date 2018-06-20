@@ -29,7 +29,32 @@ A short description of the motivation behind the creation and maintenance of the
 
 ## Usage
 
-Provide code examples and explanations of how to use the project.
+### Local Usage
+
+**Installing Jupyter:** Before you play around with our tutorial, first install Jupyter Notebook:
+
+```sh
+pip install jupyter
+```
+
+Please note that if `pip` is connected to Python 2.7 on your computer, then you can also try `pip3`. You can also install [Anaconda Python 3.6](https://www.anaconda.com/download), which downloads both Python 3.6 and Jupyter.
+
+**Cloning Repo & Starting Jupyter Server:** After you have installed Jupyter, run the following commands:
+
+```sh
+# Clone the tutorial repo
+git clone https://github.com/MingxuanZhang/MCMC_Tutorial
+# Go to the repo directory
+cd MCMC_Tutorial
+# Start the Jupyter server
+jupyter notebook
+```
+
+After executing the last command, you should be redirected to a localhost server in your browser. Click on the tutorials you want to view, which are listed above... and have a blast!
+
+### Web Usage
+
+**TODO**
 
 ## Contributors
 
